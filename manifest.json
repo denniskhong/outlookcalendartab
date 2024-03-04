@@ -1,0 +1,26 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "OutlookCalendarTab",
+      "strict_min_version": "64.0"
+    }
+  },
+  "browser_action": {
+    "default_title": "Outlook Calendar",
+    "default_icon": "images/Outlook_Calendar_icon.png"
+  },
+  "icons": {
+    "64": "images/Outlook_Calendar_icon.png",
+    "32": "images/Outlook_Calendar_icon.png",
+    "16": "images/Outlook_Calendar_icon.png"
+  },
+  "background": {
+    "scripts": ["scripts/tabs.js"]
+  },
+  "description": "Button to open Outlook Calendar Tab",
+  "homepage_url": "",
+  "manifest_version": 2,
+  "name": "Outlook Calendar Plugin",
+  "permissions": [],
+  "version": "0.1"
+}
